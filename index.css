@@ -1,0 +1,60 @@
+h1{
+    color: blue;
+    background-color: crimson;
+}
+p{
+    width: 100px;   /*size of block can be in % and in px*/
+    height: 100px;  
+    color: darkgreen;
+    text-align: center; /*text align like in word*/
+    text-overflow: ellipsis; /*how text will be in block*/
+    overflow: auto; /*how text will be in block in case if text not fit the block*/
+    white-space: normal; /*как будут отображаться слова (с переносом или без переноса и т.д.*/
+}
+ul{
+    background-color: darkorange;
+    /* coment */
+    /* text */
+    color: rgb(27, 18, 163);
+    font-size: 20px;
+    font-style: italic;  /* inherit - from parent teg style, initial - default value, unset - default value*/
+    font-family: Arial, Helvetica, sans-serif; /* 1.san-serif, 2.serif, 3.monospace, 4.handwrite*/
+    text-decoration: line-through; /*decoration for text*/
+    text-transform: uppercase; /*tranform txt*/
+    font-weight: bold; /*bold or not bold*/
+    opacity: 1; /*opacity 0-1*/
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    background-color: darkred;
+}
+
+div p{
+    width: 50%;
+    height: 50%;
+    background-color: pink;
+}
+
+div p span{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+} 
+
+h2{
+    background-color: tomato;
+    width: 100vw;   /*visual part of screen in %*/
+    height:50vh;
+}
+
+#newdiv{  /*to find block by id*/
+    display:block    /*to display empty block*/
+    background-color: teal;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border: 50px solid black; /* 3 params - size type color*/
+    margin: 50px; /* could collect 1 data - all sizes, 2 - up, down and left right, 3 - up right,left down, 4 - up right down left*/
+}
